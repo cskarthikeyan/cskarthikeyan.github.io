@@ -132,6 +132,23 @@ p.big-text {
 /* 03. Scroll to top Content Styles                       */
 /* ====================================================== */
 
+.top-scroll-play a {
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    bottom:10px;
+    font-size: 18px;
+    height:40px;
+    margin: 0 10px 100px 0;
+    padding-top: 6px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    width:40px;
+    z-index: 1000;
+/*    background-color: rgba(251, 251, 251, 0.5);*/
+}
+
 .top-scroll a {
 	border-radius:50%;
 	-webkit-border-radius:50%;
